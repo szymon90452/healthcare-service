@@ -1,0 +1,10 @@
+@import "../../../styles/index.scss";
+
+.headerSection{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
