@@ -1,8 +1,9 @@
 import * as React from 'react';
+import styles from "./MenuItem.module.scss";
 
-const MenuItem: React.FC = () => {
+const MenuItem: React.FC = (props) => {
     return(
-        <div>Menu Item</div>
+        <div className={styles.menuItem}>{props.children}</div>
     )
 }
 

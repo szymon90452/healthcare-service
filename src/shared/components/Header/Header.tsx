@@ -7,9 +7,9 @@ import styles from "./Header.module.scss";
 const Header: React.FC = () => {
     return(
         <div className={styles.headerSection}>
-            <Title />
+            <Title>HealthCare Services</Title>
             <Menu />
-            <Button/>
+            <Button>Attend to programme</Button>
         </div>
     );
 }
