@@ -1,0 +1,11 @@
+$mediumDeviceWidth: 768px !default;
+
+$breakpoints: (
+  bigsmall: 375px,
+  small: 600px,
+  medium: 768px,
+  large: 992px,
+  extralarge: 1280px,
+  xxllarge: 1400px,
+  xxxllarge: 1600px,
+);

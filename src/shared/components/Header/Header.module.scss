@@ -1,11 +1,18 @@
 @import "../../../styles/index.scss";
 
 .headerSection{
-    width: 100%;
-    padding: 1%;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    padding: 1%;
     font-family: $primary-font-family;
+}
+
+@media (min-width: $mediumDeviceWidth) {
+    .headerSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }

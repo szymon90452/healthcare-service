@@ -2,5 +2,12 @@
 
 .menuContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: $mediumDeviceWidth) {
+    .menuContainer{
+        flex-direction: row;
+    }
 }

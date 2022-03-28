@@ -1,6 +1,9 @@
 @import "../../../styles/index.scss";
 
 .title{
+    text-align: center;
     padding: 15px;
     margin: 0;
+    box-sizing: border-box;
+    font-weight: $weightSemi;
 }
