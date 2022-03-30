@@ -1,11 +1,27 @@
+$weightLight: 300;
 $weightRegular: 400;
+$weightMedium: 500;
 $weightSemi: 600;
 $weightBold: 700;
 
 @font-face {
   font-family: "Hind";
+  src: url("/fonts/Hind-Light.ttf") format("ttf");
+  font-weight: $weightLight;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
   src: url("/fonts/Hind-Regular.ttf") format("ttf");
   font-weight: $weightRegular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("/fonts/Hind-Medium.ttf") format("ttf");
+  font-weight: $weightMedium;
   font-style: normal;
 }
 
